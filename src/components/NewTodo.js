@@ -19,7 +19,8 @@ const NewTodo = (props) => {
   };
 
   const addTodoHandler = (event) => {
-    if (event.target.value.trim().length == 0) {
+    // if input is an empty string, do not add it to list
+    if (event.target.value.trim().length === 0) {
       return;
     }
     // pass the new Todo to the App.jsa
