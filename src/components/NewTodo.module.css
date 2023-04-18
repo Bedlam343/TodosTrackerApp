@@ -17,6 +17,12 @@
 .button {
   margin-top: 1.3rem;
   width: 4rem;
+  background-color: brown;
+  color: bisque;
+}
 
-  color: black;
+.button:hover {
+  background-color: bisque;
+  color: brown;
+  cursor: pointer;
 }

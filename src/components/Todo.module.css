@@ -4,5 +4,9 @@
   padding: 1rem;
   background-color: #f7f5ef;
   border: none;
-  border-bottom: 5px solid mediumslateblue;
+  border-bottom: 5px solid brown;
+}
+
+.todo-box:hover {
+  cursor: pointer;
 }
