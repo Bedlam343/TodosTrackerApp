@@ -18,7 +18,10 @@ const NewTodo = (props) => {
     setEnteredTodo(event.target.value);
   };
 
-  const addTodoHandler = () => {
+  const addTodoHandler = (event) => {
+    if (event.target.value.trim().length == 0) {
+      return;
+    }
     // pass the new Todo to the App.jsa
     const newTodo = {
       id: randKey(),
