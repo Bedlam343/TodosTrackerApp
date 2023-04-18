@@ -1,0 +1,22 @@
+.container {
+  margin: 2rem;
+}
+
+.input {
+  border: none;
+  width: auto;
+  border-bottom: 2px solid brown;
+  background-color: bisque;
+}
+
+.input:focus {
+  outline: none;
+  background-color: aliceblue;
+}
+
+.button {
+  margin-top: 1.3rem;
+  width: 4rem;
+
+  color: black;
+}
